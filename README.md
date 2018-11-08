@@ -12,7 +12,7 @@ A quick look at the protocol.
 
 ## TODO
 
-- work on the ethernet layer.
+- work on the network layer.
 
 ## License
 
