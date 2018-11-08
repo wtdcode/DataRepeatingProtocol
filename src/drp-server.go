@@ -18,7 +18,7 @@ func drpecho(conn net.Conn) {
 	}
 }
 
-func handleerr(err error) {
+func handlerror(err error) {
 	if err != nil {
 		panic(err)
 	}
@@ -26,10 +26,10 @@ func handleerr(err error) {
 
 func main() {
 	ln, err := net.Listen("tcp", "0.0.0.0:2333")
-	handleerr(err)
+	handlerror(err)
 	for {
 		conn, err := ln.Accept()
-		handleerr(err)
+		handlerror(err)
 		go drpecho(conn)
 	}
 }
