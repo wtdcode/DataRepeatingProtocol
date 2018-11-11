@@ -10,9 +10,9 @@ A quick look at the protocol.
 
 ![](images/server.png)
 
-## TODO
+## Implementation
 
-- work on the network layer.
+See [MIRROR target](https://rlworkman.net/howtos/iptables/chunkyhtml/x4469.html).
 
 ## License
 
